@@ -56,3 +56,84 @@ a {
 .seconday__nav-link:not(:last-child) {
     margin-right: 20px;
 }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 32px;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 26px;
+}
+
+.description {
+    max-width: 268px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.description::after {
+    content: '';
+    width: 1px;
+    display: block;
+    height: 59px;
+    background: #FFFFFF;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.video {
+    max-width: 1230px;
+    width: 85%;
+    margin: auto;
+    height: 750px;
+}
+
+.features {
+    max-width: 1230px;
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.features-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.table {
+    margin-bottom: 218px;
+}
+
+.table td {
+    width: 230px;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.rocket {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 99;
+}
+
+.features-description {
+    font-size: 16px;
+    line-height: 29px;
+    max-width: 490px;
+}
